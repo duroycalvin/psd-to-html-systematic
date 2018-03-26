@@ -139,37 +139,139 @@ header{
     color: #ba2e1f;
 }
 
-.img-400-440{
-    width: 400px;
-    height: 440px;
+.img{
     background-color: #333;
     color: #fff;
     text-align: center;
+    line-height: 1;
+}
+
+.img:after{
+    display: inline-block;
+    font-size: 22px;
+}
+
+.img-400-440{
+    width: 400px;
+    height: 440px;
 }
 
 .img-400-440:after{
     content: "400 x 440px";
-    display: inline-block;
     margin-top: 212px;
 }
 
-.media .media-body{
+.img-290-140{
+    width: 290px;
+    height: 140px;
+}
+
+.img-290-140-in{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-290-140-out{
+    width: 300px;
+    height: 150px;
+    padding-top: 4px;
+    background-color: #F2F2F2;
+    border: 1px solid #DFDFDF;
+}
+
+.img-290-140-in:after{
+    content: "290 x 140px";
+    margin-top: 65px;
+}
+
+.img-64-64{
+    width: 64px;
+    height: 64px;
+}
+
+.img-64-64:after{
+    content: "64 x 64px";
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+.st-text-right{
+    text-align: right;
+}
+
+.more-btn{
+    text-transform: capitalize;
+    color: #B92D1F;
+}
+
+.more-btn:hover, .more-btn:active, .more-btn:focus{
+    text-decoration: none;
+    color: #ee802f;
+}
+
+.media .title{
     padding-top: 90px;
     padding-left: 48px;
 }
 
-.media .media-body h5{
+.media .title h1{
     font-size: 86px;
     margin: 0;
 }
 
-.media .media-body p{
+.media .title p{
     font-size: 16px;
-    color: rgb(102, 102, 102);
+    color: #666;
+    text-align: justify;
 }
 
-.media .media-body p a{
+.media .title p a{
     font-size: 16px;
     text-transform: uppercase;
-    color: rgb(186, 46, 31);
+}
+
+.bd-text {
+    font-size: 13px;
+    color: #878787;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.services .media .media-body{
+    padding-left: 20px;
+}
+
+.services .media .media-body h6, .testimonials .testimonial-name {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.testimonials p{
+    margin: 0;
+}
+
+.testimonials .tm-quote{
+    font-size: 54px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.title-h2 {
+    font-size: 26px;
+    color: #333;
+    line-height: 120px;
+}
+
+#body .part-2{
+    background-color: #F2F2F2;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-bottom: 20px;
+}
+
+#body .part-2 .col-sm{
+    padding: 0;
+    margin-right: 20px;
+    margin-left: 20px;
 }
